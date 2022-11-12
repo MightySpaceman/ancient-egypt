@@ -294,4 +294,26 @@ model-viewer {
     font-size: 1vw;
 }
 
+.footer {
+    float: left;
+}
+
+.footer p {
+    font-size: 0.9vw;
+}
+
+.footer a {
+    font-size: 0.9vw;
+    color: rgb(102, 102, 255);
+}
+
+.footer a:hover {
+    font-weight: bold;
+    color: rgb(185, 185, 255);
+}
+
+.footer hr {
+    height: 0.2vw;
+}
+
 
