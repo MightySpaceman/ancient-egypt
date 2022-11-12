@@ -1,0 +1,297 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 3vw;
+    text-align: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 2vw;
+    text-align: left;   
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    text-align: left;   
+}
+
+.h4 {
+    font-family: sans-serif;
+}
+
+.header-container {
+    text-align: center;
+    margin: 1vw;
+}
+
+.header-container h4 {
+    margin: 2vw;
+}
+
+hr {
+    height: 0.4vw;
+    border-width: 0;
+    color: white;
+    background-color:white;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: justify;
+    margin: 4vw;
+    padding: 1vw;
+}
+
+p {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+}
+
+ol {
+    list-style: '-  ';
+    border: 0.15vw solid white;
+    padding: 1vw;
+    height: 10vw;
+}
+
+li {
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    position: relative;
+
+    top: -3vw;
+    left: 1.5vw;
+}
+
+ol b {
+    font-size: 1.65vw;
+    margin: 0vw;
+    position: relative;
+    top: -3.5vw;
+    background-color: black;
+
+    margin: 0.5vw;
+}
+
+a {
+    color: rgb(120, 120, 120);
+    text-decoration: none;
+    font-size: 0.6vw;
+    margin: 0vw;
+    padding: 0vw;
+}
+
+a:hover {
+    text-decoration: auto;
+    color: white;
+    font-size: 0.65vw;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+caption {
+    text-align: center;
+    float: left;
+}
+
+.barrier {
+    margin: 1vw;
+    float: right;
+}
+
+.standard {
+    /* border: 0.5vw solid white; */
+    float: left;
+    padding: 0vw;
+    margin: 2vw;
+}
+
+.model-container {
+    padding: 1vw;
+    margin: 2vw;
+    float: left;
+    text-align: center;
+
+    border: 0.15vw solid white;
+}
+
+.model-container a {
+    position: relative;
+    top: -0.4vw;
+    /* border: px dotted red; */
+}
+
+model-viewer {
+    height: 20vw;
+    width: 20vw;
+}
+
+.img-container {
+    margin: 2vw;
+    padding: 0vw;
+    text-align: center;
+
+}
+
+.img-container p {
+    font-size: 1vw;
+    margin: 0vw;
+    padding: 0vw;
+}
+
+.img-container a {
+    position: relative;
+    top: -0.5vw;
+}
+
+/* Paragraph specific */
+
+#paragraph1 {
+    width: 50vw;
+    position: relative;
+    top: -1.5vw;
+    left: 0vw;
+}
+
+#paragraph2 {
+    width: 50vw;
+    float: right;
+}
+
+#paragraph3 {
+    width: 30vw;
+    position: relative;
+    top: 0.6vw;
+}
+
+#paragraph4 {
+    width: 57.5vw;
+}
+
+#paragraph5 {
+    width: 57.5vw;
+    float: right;
+    margin: 1.5vw;
+}
+
+#paragraph6 {
+    width: 57.5vw;
+    float: left;
+    margin: 1.5vw;
+}
+
+#paragraph7 {
+    width: 26.5vw;
+    float: right;
+    margin: 1.5vw;
+}
+
+
+/* image specific */
+.img1 {
+    float: right;
+}
+
+.img1 img {
+    height: 17vw;
+}
+
+.crop_img1 {
+    height: 17vw;
+    width: 30vw;
+    overflow: hidden;
+}
+
+.img2 {
+    position: auto;
+    float: left;
+    margin: 2.5vw;
+}
+
+.img2 img {
+    float: left;
+    height: 18vw;
+}
+
+/* Model specific */
+.model1 {
+    float: left;
+}
+
+.model2 {
+    float: right;
+}
+
+/* Dropdowns */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0vw;
+    padding: 0.2vw;
+  }
+
+  .dropdown p {
+    font-size: 1vw;
+    margin: 0vw;
+    padding: 0vw;
+  }
+
+  .dropdown img {
+    height: 0.75vw;
+    margin: 0.1vw;
+    float: right;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: justify;
+    text-justify: inter-character;
+    background-color: black;
+    color: white;
+    border: 0.15vw solid white;
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    cursor: auto;
+  }
+
+  .dropdown:hover {
+    cursor: grabbing;
+    color:rgb(120, 120, 120);
+  }
+
+.sources {
+    margin: 2vw;
+    padding: 0vw;
+    width: 100%;
+    float: left;
+}
+
+.sources_row {
+    margin: 0vw;
+    padding: 1vw;
+}
+
+.sources_row a {
+    font-size: 1vw;
+    color: rgb(102, 102, 255);
+}
+
+.sources_row a:hover {
+    font-weight: bold;
+    color: rgb(185, 185, 255);
+}
+
+.sources_row p {
+    font-size: 1vw;
+}
+
+
